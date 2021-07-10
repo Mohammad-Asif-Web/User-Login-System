@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 $server = "localhost";
 $user = "root";
@@ -7,16 +7,8 @@ $database = "user-login-system";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
-if(!$conn) {
+if (!$conn) {
     die("<script>alert('Connection Failed.')</script>");
 }
-
-
-
-
-
-
-
-
 
 ?>
